@@ -34,7 +34,7 @@ if __name__ == "__main__":
     a, b = reg1dim(x, yl)
 
     print("[i] inclination: " + str(a))
-    print("[i] intercept: " + str(b))
+    print("[i] intercept: " + str(pow(10, b)))
     fig, ax = plt.subplots()
     ax.set(title=plt_title, xlabel=x_label, ylabel=y_label)
     ax.set_yscale('log')
