@@ -7,8 +7,8 @@ if __name__ == "__main__":
     plt_title = str(input("Title: "))
     x_label = str(input("x label: "))
     y_label = str(input("y label: "))
-    x_max = float(input("x max: "))
     elem_num = int(input("Number of Elements: "))
+    x_max = float(input("x max: "))
     
     for i in range(elem_num):
         v = input("inclination-{}: ".format(i))
