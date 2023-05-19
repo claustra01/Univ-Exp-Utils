@@ -20,4 +20,5 @@ if __name__ == "__main__":
         plt.plot([0, x_max], [0, float(inclinations[i]) * x_max])
     ax.minorticks_on()
     ax.grid(which='major', color='gray', linestyle='dotted')
-    plt.show()
+    filename = str(input("File Name: "))
+    plt.savefig(filename + ".png")

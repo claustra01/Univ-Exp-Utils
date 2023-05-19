@@ -37,4 +37,5 @@ if __name__ == "__main__":
     plt.plot([0, x.max()], [b, a * x.max() + b])
     ax.minorticks_on()
     ax.grid(which='major', color='gray', linestyle='dotted')
-    plt.show()
+    filename = str(input("File Name: "))
+    plt.savefig(filename + ".png")

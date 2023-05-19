@@ -43,4 +43,5 @@ if __name__ == "__main__":
     ax.minorticks_on()
     ax.grid(which='major', color='gray', linestyle='-')
     ax.grid(which='minor', color='gray', linestyle='dotted')
-    plt.show()
+    filename = str(input("File Name: "))
+    plt.savefig(filename + ".png")
